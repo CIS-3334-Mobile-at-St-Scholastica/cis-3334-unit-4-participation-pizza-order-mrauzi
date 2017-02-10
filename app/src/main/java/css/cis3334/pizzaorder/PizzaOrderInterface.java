@@ -8,7 +8,7 @@ public interface PizzaOrderInterface {
     Double getTotalBill();
     Double getSmallPrice();
     Double getMediumPrice();
-    Double getLargePrize();
+    Double getLargePrice();
     Double getExtraCheesePrice();
     void setDelivery(boolean deliver);
     boolean getDelivery();
